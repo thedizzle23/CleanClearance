@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B27F64C9158BC0FD006FA23B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F64C8158BC0FD006FA23B /* UIKit.framework */; };
+		B27F64CB158BC0FD006FA23B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F64CA158BC0FD006FA23B /* Foundation.framework */; };
+		B27F64CD158BC0FD006FA23B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F64CC158BC0FD006FA23B /* CoreGraphics.framework */; };
+		B27F64D3158BC0FD006FA23B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27F64D1158BC0FD006FA23B /* InfoPlist.strings */; };
+		B27F64D5158BC0FD006FA23B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F64D4158BC0FD006FA23B /* main.m */; };
+		B27F64D9158BC0FD006FA23B /* themaincompleteappAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F64D8158BC0FD006FA23B /* themaincompleteappAppDelegate.m */; };
+		B27F64DC158BC0FD006FA23B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27F64DA158BC0FD006FA23B /* MainStoryboard_iPhone.storyboard */; };
+		B27F64DF158BC0FD006FA23B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27F64DD158BC0FD006FA23B /* MainStoryboard_iPad.storyboard */; };
+		B27F64E2158BC0FD006FA23B /* themaincompleteappFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F64E1158BC0FD006FA23B /* themaincompleteappFirstViewController.m */; };
+		B27F64E4158BC0FD006FA23B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B27F64E3158BC0FD006FA23B /* first.png */; };
+		B27F64E6158BC0FD006FA23B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B27F64E5158BC0FD006FA23B /* first@2x.png */; };
+		B27F64E9158BC0FD006FA23B /* themaincompleteappSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F64E8158BC0FD006FA23B /* themaincompleteappSecondViewController.m */; };
+		B27F64EB158BC0FD006FA23B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B27F64EA158BC0FD006FA23B /* second.png */; };
+		B27F64ED158BC0FD006FA23B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B27F64EC158BC0FD006FA23B /* second@2x.png */; };
+		B27F64F5158BC0FE006FA23B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F64F4158BC0FE006FA23B /* SenTestingKit.framework */; };
+		B27F64F6158BC0FE006FA23B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F64C8158BC0FD006FA23B /* UIKit.framework */; };
+		B27F64F7158BC0FE006FA23B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F64CA158BC0FD006FA23B /* Foundation.framework */; };
+		B27F64FF158BC0FE006FA23B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27F64FD158BC0FE006FA23B /* InfoPlist.strings */; };
+		B27F6502158BC0FE006FA23B /* CleanDeskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F6501158BC0FE006FA23B /* CleanDeskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27F64F8158BC0FE006FA23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27F64BB158BC0FD006FA23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27F64C3158BC0FD006FA23B;
+			remoteInfo = CleanDesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B27F64C4158BC0FD006FA23B /* CleanDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27F64C8158BC0FD006FA23B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B27F64CA158BC0FD006FA23B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B27F64CC158BC0FD006FA23B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B27F64D0158BC0FD006FA23B /* CleanDesk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CleanDesk-Info.plist"; sourceTree = "<group>"; };
+		B27F64D2158BC0FD006FA23B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B27F64D4158BC0FD006FA23B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B27F64D6158BC0FD006FA23B /* CleanDesk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CleanDesk-Prefix.pch"; sourceTree = "<group>"; };
+		B27F64D7158BC0FD006FA23B /* themaincompleteappAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = themaincompleteappAppDelegate.h; sourceTree = "<group>"; };
+		B27F64D8158BC0FD006FA23B /* themaincompleteappAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = themaincompleteappAppDelegate.m; sourceTree = "<group>"; };
+		B27F64DB158BC0FD006FA23B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B27F64DE158BC0FD006FA23B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B27F64E0158BC0FD006FA23B /* themaincompleteappFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = themaincompleteappFirstViewController.h; sourceTree = "<group>"; };
+		B27F64E1158BC0FD006FA23B /* themaincompleteappFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = themaincompleteappFirstViewController.m; sourceTree = "<group>"; };
+		B27F64E3158BC0FD006FA23B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B27F64E5158BC0FD006FA23B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B27F64E7158BC0FD006FA23B /* themaincompleteappSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = themaincompleteappSecondViewController.h; sourceTree = "<group>"; };
+		B27F64E8158BC0FD006FA23B /* themaincompleteappSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = themaincompleteappSecondViewController.m; sourceTree = "<group>"; };
+		B27F64EA158BC0FD006FA23B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B27F64EC158BC0FD006FA23B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B27F64F3158BC0FE006FA23B /* CleanDeskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanDeskTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27F64F4158BC0FE006FA23B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B27F64FC158BC0FE006FA23B /* CleanDeskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CleanDeskTests-Info.plist"; sourceTree = "<group>"; };
+		B27F64FE158BC0FE006FA23B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B27F6500158BC0FE006FA23B /* CleanDeskTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleanDeskTests.h; sourceTree = "<group>"; };
+		B27F6501158BC0FE006FA23B /* CleanDeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleanDeskTests.m; sourceTree = "<group>"; };
+		B27F650B158BC129006FA23B /* CleanDesk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CleanDesk.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27F64C1158BC0FD006FA23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27F64C9158BC0FD006FA23B /* UIKit.framework in Frameworks */,
+				B27F64CB158BC0FD006FA23B /* Foundation.framework in Frameworks */,
+				B27F64CD158BC0FD006FA23B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27F64EF158BC0FE006FA23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27F64F5158BC0FE006FA23B /* SenTestingKit.framework in Frameworks */,
+				B27F64F6158BC0FE006FA23B /* UIKit.framework in Frameworks */,
+				B27F64F7158BC0FE006FA23B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27F64B9158BC0FD006FA23B = {
+			isa = PBXGroup;
+			children = (
+				B27F64CE158BC0FD006FA23B /* CleanDesk */,
+				B27F64FA158BC0FE006FA23B /* CleanDeskTests */,
+				B27F64C7158BC0FD006FA23B /* Frameworks */,
+				B27F64C5158BC0FD006FA23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B27F64C5158BC0FD006FA23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27F64C4158BC0FD006FA23B /* CleanDesk.app */,
+				B27F64F3158BC0FE006FA23B /* CleanDeskTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27F64C7158BC0FD006FA23B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27F64C8158BC0FD006FA23B /* UIKit.framework */,
+				B27F64CA158BC0FD006FA23B /* Foundation.framework */,
+				B27F64CC158BC0FD006FA23B /* CoreGraphics.framework */,
+				B27F64F4158BC0FE006FA23B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B27F64CE158BC0FD006FA23B /* CleanDesk */ = {
+			isa = PBXGroup;
+			children = (
+				B27F650B158BC129006FA23B /* CleanDesk.entitlements */,
+				B27F64D7158BC0FD006FA23B /* themaincompleteappAppDelegate.h */,
+				B27F64D8158BC0FD006FA23B /* themaincompleteappAppDelegate.m */,
+				B27F64DA158BC0FD006FA23B /* MainStoryboard_iPhone.storyboard */,
+				B27F64DD158BC0FD006FA23B /* MainStoryboard_iPad.storyboard */,
+				B27F64E0158BC0FD006FA23B /* themaincompleteappFirstViewController.h */,
+				B27F64E1158BC0FD006FA23B /* themaincompleteappFirstViewController.m */,
+				B27F64E3158BC0FD006FA23B /* first.png */,
+				B27F64E5158BC0FD006FA23B /* first@2x.png */,
+				B27F64E7158BC0FD006FA23B /* themaincompleteappSecondViewController.h */,
+				B27F64E8158BC0FD006FA23B /* themaincompleteappSecondViewController.m */,
+				B27F64EA158BC0FD006FA23B /* second.png */,
+				B27F64EC158BC0FD006FA23B /* second@2x.png */,
+				B27F64CF158BC0FD006FA23B /* Supporting Files */,
+			);
+			path = CleanDesk;
+			sourceTree = "<group>";
+		};
+		B27F64CF158BC0FD006FA23B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B27F64D0158BC0FD006FA23B /* CleanDesk-Info.plist */,
+				B27F64D1158BC0FD006FA23B /* InfoPlist.strings */,
+				B27F64D4158BC0FD006FA23B /* main.m */,
+				B27F64D6158BC0FD006FA23B /* CleanDesk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B27F64FA158BC0FE006FA23B /* CleanDeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B27F6500158BC0FE006FA23B /* CleanDeskTests.h */,
+				B27F6501158BC0FE006FA23B /* CleanDeskTests.m */,
+				B27F64FB158BC0FE006FA23B /* Supporting Files */,
+			);
+			path = CleanDeskTests;
+			sourceTree = "<group>";
+		};
+		B27F64FB158BC0FE006FA23B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B27F64FC158BC0FE006FA23B /* CleanDeskTests-Info.plist */,
+				B27F64FD158BC0FE006FA23B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27F64C3158BC0FD006FA23B /* CleanDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27F6505158BC0FE006FA23B /* Build configuration list for PBXNativeTarget "CleanDesk" */;
+			buildPhases = (
+				B27F64C0158BC0FD006FA23B /* Sources */,
+				B27F64C1158BC0FD006FA23B /* Frameworks */,
+				B27F64C2158BC0FD006FA23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanDesk;
+			productName = CleanDesk;
+			productReference = B27F64C4158BC0FD006FA23B /* CleanDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27F64F2158BC0FE006FA23B /* CleanDeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27F6508158BC0FE006FA23B /* Build configuration list for PBXNativeTarget "CleanDeskTests" */;
+			buildPhases = (
+				B27F64EE158BC0FE006FA23B /* Sources */,
+				B27F64EF158BC0FE006FA23B /* Frameworks */,
+				B27F64F0158BC0FE006FA23B /* Resources */,
+				B27F64F1158BC0FE006FA23B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27F64F9158BC0FE006FA23B /* PBXTargetDependency */,
+			);
+			name = CleanDeskTests;
+			productName = CleanDeskTests;
+			productReference = B27F64F3158BC0FE006FA23B /* CleanDeskTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27F64BB158BC0FD006FA23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B27F64BE158BC0FD006FA23B /* Build configuration list for PBXProject "CleanDesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B27F64B9158BC0FD006FA23B;
+			productRefGroup = B27F64C5158BC0FD006FA23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27F64C3158BC0FD006FA23B /* CleanDesk */,
+				B27F64F2158BC0FE006FA23B /* CleanDeskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27F64C2158BC0FD006FA23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27F64D3158BC0FD006FA23B /* InfoPlist.strings in Resources */,
+				B27F64DC158BC0FD006FA23B /* MainStoryboard_iPhone.storyboard in Resources */,
+				B27F64DF158BC0FD006FA23B /* MainStoryboard_iPad.storyboard in Resources */,
+				B27F64E4158BC0FD006FA23B /* first.png in Resources */,
+				B27F64E6158BC0FD006FA23B /* first@2x.png in Resources */,
+				B27F64EB158BC0FD006FA23B /* second.png in Resources */,
+				B27F64ED158BC0FD006FA23B /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27F64F0158BC0FE006FA23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27F64FF158BC0FE006FA23B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B27F64F1158BC0FE006FA23B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27F64C0158BC0FD006FA23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27F64D5158BC0FD006FA23B /* main.m in Sources */,
+				B27F64D9158BC0FD006FA23B /* themaincompleteappAppDelegate.m in Sources */,
+				B27F64E2158BC0FD006FA23B /* themaincompleteappFirstViewController.m in Sources */,
+				B27F64E9158BC0FD006FA23B /* themaincompleteappSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27F64EE158BC0FE006FA23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27F6502158BC0FE006FA23B /* CleanDeskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27F64F9158BC0FE006FA23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27F64C3158BC0FD006FA23B /* CleanDesk */;
+			targetProxy = B27F64F8158BC0FE006FA23B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B27F64D1158BC0FD006FA23B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27F64D2158BC0FD006FA23B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B27F64DA158BC0FD006FA23B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27F64DB158BC0FD006FA23B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B27F64DD158BC0FD006FA23B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27F64DE158BC0FD006FA23B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B27F64FD158BC0FE006FA23B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27F64FE158BC0FE006FA23B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27F6503158BC0FE006FA23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27F6504158BC0FE006FA23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27F6506158BC0FE006FA23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CleanDesk/CleanDesk.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CleanDesk/CleanDesk-Prefix.pch";
+				INFOPLIST_FILE = "CleanDesk/CleanDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B27F6507158BC0FE006FA23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CleanDesk/CleanDesk.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CleanDesk/CleanDesk-Prefix.pch";
+				INFOPLIST_FILE = "CleanDesk/CleanDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B27F6509158BC0FE006FA23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CleanDesk.app/CleanDesk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CleanDesk/CleanDesk-Prefix.pch";
+				INFOPLIST_FILE = "CleanDeskTests/CleanDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B27F650A158BC0FE006FA23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CleanDesk.app/CleanDesk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CleanDesk/CleanDesk-Prefix.pch";
+				INFOPLIST_FILE = "CleanDeskTests/CleanDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27F64BE158BC0FD006FA23B /* Build configuration list for PBXProject "CleanDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27F6503158BC0FE006FA23B /* Debug */,
+				B27F6504158BC0FE006FA23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27F6505158BC0FE006FA23B /* Build configuration list for PBXNativeTarget "CleanDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27F6506158BC0FE006FA23B /* Debug */,
+				B27F6507158BC0FE006FA23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B27F6508158BC0FE006FA23B /* Build configuration list for PBXNativeTarget "CleanDeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27F6509158BC0FE006FA23B /* Debug */,
+				B27F650A158BC0FE006FA23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B27F64BB158BC0FD006FA23B /* Project object */;
+}
